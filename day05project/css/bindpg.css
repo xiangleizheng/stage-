@@ -1,0 +1,84 @@
+hr{
+    width: 90%;
+    border-top: 2px dashed #e9e9e9;
+    border-left: 0 dashed transparent ;
+}
+.changepsd{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #696969;
+    width: 200px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #1ac0c0;
+}
+.bindphone{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 620px;
+    height: 100px;
+    position: relative;
+    border: 2px solid #eaeaea;
+    background: #ffffff;
+}
+.bindwechat{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 620px;
+    height: 100px;
+    position: relative;
+    border: 2px solid #eaeaea;
+    background: #ffffff;
+}
+.bdphone{
+    display: block;
+    width: 47px;
+    height: 47px;
+    background:transparent url(../images/phone-g.png) no-repeat center center ;
+    position: absolute;
+    margin-left: 40px;
+    top: 50%;
+    margin-top: -23px;
+
+}
+.bdwechat{
+    display:block;
+    width: 47px;
+    height: 47px;
+    background: transparent url(../images/weixin-g.png) no-repeat center center;
+    position: absolute;
+    margin-left: 40px;
+    top: 50%;
+    margin-top: -23px;
+}
+
+span{
+    width: 200px;
+    line-height: 30px;
+    display:inline-block;
+    position: absolute;
+    margin-left: 100px;
+    top: 20%;
+}
+input.bdan{
+    display: block;
+    width: 150px;
+    line-height: 35px;
+    background-color: #19bfbf;
+    font-size: 20px;
+    color: #fefefe;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: 80px;
+    outline: none;
+}
+input.bdan:hover{
+    background-color:#fefefe;
+    color: #19bfbf;
+    box-shadow: 0 0 20px 1px #18bebe ;
+}

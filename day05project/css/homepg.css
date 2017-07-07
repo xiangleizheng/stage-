@@ -1,0 +1,90 @@
+*{margin: 0;padding: 0;}
+.hpg{
+    background-color:#f0f0f0 ;
+}
+.box{
+    background-color: #ededed;
+    border-bottom: 2px solid #eaeaea;
+    overflow: hidden;
+}
+.box1{width: 250px;height: 200px; position: relative;float: left;margin-left: 40px;}
+.box2{width: 1px;height: 70px;background-color: #b4b4b4;float: left;
+    margin-top:70px; margin-right: 40px; }
+.box3{
+    text-align: center;
+    width: 220px;
+    position: relative;
+    float: left;
+    margin-top:80px;
+}
+.box4{
+    text-align: center;
+    width: 220px;
+    position: relative;
+    float: left;
+    margin-top:80px;
+    margin-left: -20px;
+}
+
+i.touxiang{
+    display: block;
+    width: 108px;
+    height: 108px;
+    background: #ededed url(../images/touxiang1.png) no-repeat center center ;
+    position:absolute;
+    top: 50%;
+    margin-top: -54px;
+}
+div.userifo{
+    position: absolute;
+    margin-left: 110px;
+    top: 50%;margin-top: -45px;
+}
+span{
+    line-height: 20px;
+    color: #5c5d5b;
+    font-size: 13px;
+}
+span.username{font-size: 22px;line-height: 40px;}
+span.jifen{font-size: 14px;line-height: 15px}
+span.circlep,span.circlew{
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+}
+.box3 span.circlep{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    border:1px solid #19bfbf;
+    border-radius: 50%;
+}
+.box4 span.circlew{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    border:1px solid #19bfbf;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+div i.phone-g{
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: transparent url("../images/phone.png")no-repeat center center;
+}
+div i.weixin-green{
+    display: block;
+    width: 47px;
+    height: 47px;
+    background: transparent url("../images/weixin-green.png") no-repeat center center;
+}
+span a.bd{
+    text-decoration: none;
+    color: #4c4c4c;
+ }
+span a.bd:hover{
+    color: #19c6c6;
+}

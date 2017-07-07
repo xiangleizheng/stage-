@@ -1,0 +1,263 @@
+.new_pro{width: 1300px;}
+
+
+/*顶部标题描述部分修饰*/
+.new_pro div.description div.right{
+    width: 45px;
+    float: right;
+}
+/*对“更多”两个字的修饰*/
+.new_pro div.description div.right span.more{
+    color: #333333;
+}
+.new_pro div.description div.right span.more:hover{color: #ff4a00;}
+/*对右箭头的修饰*/
+.new_pro div i{
+    display: inline-block;
+    width: 8px;
+    height: 13px;
+    background: transparent url(../images/06.png)no-repeat center center;
+}
+
+
+
+/*左侧产品展示部分*/
+.new_pro div.left{
+    float: left;
+    width: 75%;
+    border-left:1px solid #d3d3d3;
+    border-top:1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+
+.new_pro div.left div{
+    float: left;
+    width: 33.33333%;
+    height: 310px;
+    border-right:1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 30px;
+}
+/*对产品名称 价格的修饰*/
+.new_pro div.left div p{
+    float: left;
+    font-size: 15px;
+    color: #333333;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.new_pro div.left div p:hover{color: #ff4a00;}
+.new_pro div.left div i{
+    float: left;
+}
+/*对左侧产品——音箱的修饰*/
+.new_pro div.left div.yx{
+    width: 66.666%;
+    background-image: url(../images/fanghezi0407xiao.jpg);
+}
+/*对左侧产品——手环的修饰*/
+.new_pro div.left div.sh i.sh_pic{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1qaVvB7CT1RXrhCrK!220x220.jpg)no-repeat;
+}
+/*对左侧产品——钥匙扣和蓝牙耳机的修饰*/
+.new_pro div.left div.ysklyej{
+    padding: 0 0;
+}
+.new_pro div.left div.ysklyej ul li{
+    position: relative;
+    width: 100%;
+    height:130px;
+    padding-top: 30px;
+}
+/*对钥匙扣的修饰*/
+.new_pro div.left div.ysklyej ul li.mitu{ border-bottom: 1px solid #d3d3d3;}
+.new_pro div.left div.ysklyej i.ysk_pic{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 52px;
+    height: 118px;
+    background: transparent url(../images/yaoshi.png)no-repeat;
+}
+/*对蓝牙耳机的修饰*/
+.new_pro div.left div.ysklyej i.lyej_pic{
+    float: left;
+    margin-top: -40px;
+    margin-left: 115px;
+    width: 120px;
+    height: 120px;
+    background: transparent url(../images/T1SrKTBmWT1RXrhCrK!220x220.jpg)no-repeat;
+    background-size: cover;
+}
+/*对左侧产品——T恤的修饰*/
+.new_pro div.left div.T-shirt i.T-shirt_pic{
+    margin-top: 20px;
+    margin-left: -10px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1crEgBCYT1RXrhCrK!220x220.jpg) no-repeat;
+}
+/*对左侧产品——实木后盖的修饰*/
+.new_pro div.left div.smhg i.smhg_pic{
+    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T12qZvB7CT1RXrhCrK!220x220.jpg) no-repeat;
+}
+/*对左侧产品——保护壳的修饰*/
+.new_pro div.left div.bhk i.bhk_pic{
+    margin-top: 35px;
+    margin-left: 40px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/baohuke.png) no-repeat;
+}
+/*对左侧产品——自拍杆的修饰*/
+.new_pro div.left div.zpg i.zpg_pic{
+    margin-top: 20px;
+    margin-left: -20px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1DrL_B4CT1RXrhCrK!220x220.jpg) no-repeat;
+}
+/*对左侧产品——入耳式耳机的修饰*/
+.new_pro div.left div.ej i.ej_pic{
+    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1GXxvBsET1RXrhCrK!220x220.jpg) no-repeat;
+}
+
+/*右侧部分修饰*/
+.new_pro div.pro_right{
+    width: 25%;
+    float: right;
+    box-sizing: border-box;
+    border-top:1px solid #d3d3d3;
+    border-bottom:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;
+    background-color: #fff9f8;
+}
+.new_pro div.pro_right div.sdcard{
+    height: 140px;
+    position: relative;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.new_pro div.pro_right div.toys{
+    height: 140px;
+    position: relative;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.new_pro div.pro_right div.model{
+    height: 140px;
+    position: relative;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+/*  特价商品的修饰*/
+ div.bargain{
+    position: absolute;
+    background-color:red;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+    margin-left: 20px;
+}
+.new_pro div.pro_right div div.text{
+    position:absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+/*  sd卡的修饰*/
+.new_pro div.pro_right div.sdcard div.sdcard_pic{
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 200px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image:url(../images/T1ByZTBjJT1RXrhCrK.jpg);
+}
+.new_pro div.pro_right div.toys div.toys_pic{
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 200px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image:url(../images/channel-list-cool.jpg);
+}
+.new_pro div.pro_right div.model div.model_pic{
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 200px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image:url(../images/channel-list-new.jpg);
+}
+
+/*通道入口修饰*/
+.new_pro div.pro_right ul.enter{margin-top: 20px;margin-bottom: 30px;}
+.new_pro div.pro_right ul.enter li{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    line-height: 45px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.new_pro div.pro_right ul.enter li.last{
+    border-bottom: 0;
+}
+.new_pro div.pro_right ul.enter li i{
+    margin-top: 15px;
+    float: right;
+}
+.new_pro div.pro_right ul.enter li:hover{color: #ff4a00;}
+ /*话费充值入口修饰*/
+.new_pro div.pro_right div.huafei{
+    height: 231px;
+    position: relative;
+    border-top: 1px solid #d3d3d3;
+}
+.new_pro div.pro_right div.huafei p.hfcz{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333333;
+}
+.new_pro div.pro_right div.huafei input{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 270px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.new_pro div.pro_right div.huafei i.xiala{
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 50%;
+    left: 82%;
+    background: transparent url(../images/tran-g.png)no-repeat center center;
+}
+.new_pro div.pro_right div.huafei input.ljcz{
+    background-color: #ff4a00;
+    border: 1px solid #ff4a00;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #ffffff;
+}
+.new_pro div.pro_right div.huafei input.ljcz:hover{
+    background-color: #e3e3e3;
+    color: #ff4a00;
+    border-color: #e3e3e3;
+}

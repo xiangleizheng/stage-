@@ -1,0 +1,197 @@
+
+/*品牌精选*/
+.common_box ul li.gqdt_two{
+    width: 50%;
+    height: 478px;
+    background-size:cover;
+    background: #030418 url(../images/7-1.jpg)no-repeat center center;
+}
+i.szzr{
+    background: transparent url(../images/5-2.jpg) no-repeat center center;
+}
+i.japan{
+    background: transparent url(../images/7-3.jpg) no-repeat center center;
+}
+i.diva{
+    background: transparent url(../images/7-4.jpg) no-repeat center center;
+}
+i.ctb{
+    background: transparent url(../images/7-5.jpg) no-repeat center center;
+}
+i.tdej{
+    background: transparent url(../images/7-6.jpg) no-repeat center center;
+}
+i.mashaji{
+    background: transparent url(../images/7-7.jpg) no-repeat center center;
+}
+/*锤子科技动态*/
+.common_box1{
+    width: 1220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+.common_box1 p.tittle{
+    color: #5c5c5c;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+}
+.common_box1 ul li{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 200px;
+    background-color: #ffffff;
+    border-top: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.common_box1 ul li:hover{
+    box-shadow: 0 0 10px 1px #d3d3d3 inset;
+}
+.common_box1 ul li i{
+    display: block;
+    height: 200px;
+    margin-left:30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.common_box1 ul li.first_li{
+    border-bottom-left-radius: 10px;
+}
+.common_box1 ul li.last_li{
+    border-right:0;
+    border-bottom-right-radius: 10px;
+}
+li.m1_white{
+    background: transparent url(../images/8-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+li.m1_black{
+    background: transparent url(../images/8-2.jpg) no-repeat center center;
+}
+li.onestep{
+    background: transparent url(../images/8-3.jpg) no-repeat center center;
+}
+li.conference{
+    background: transparent url(../images/8-4.jpg) no-repeat center center;
+}
+/*锤子应用*/
+a.tittle_end{
+    text-align: center;
+    display: inline-block;
+    margin-top: -40px;
+    margin-right: 20px;
+    float: right;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    width: 100px;
+    line-height: 30px;
+    color: #333333;
+}
+a.tittle_end:hover{background-color: #f0f0f0;}
+ul li i.android{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 38%;
+    width: 68px;
+    height: 72px;
+    background: transparent url(../images/9-1.jpg) no-repeat center center;
+}
+ul li i.note{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 38%;
+    width: 68px;
+    height: 72px;
+    background: transparent url(../images/9-2.jpg) no-repeat center center;
+}
+ul li i.phone_table{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 38%;
+    width: 68px;
+    height: 72px;
+    background: transparent url(../images/9-3.jpg) no-repeat center center;
+}
+ul li i.blog{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 38%;
+    width: 68px;
+    height: 72px;
+    background: transparent url(../images/9-4.jpg) no-repeat center center;
+}
+/* windows mac android图标*/
+ul li span.version1{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    margin-left: 40%;
+    width: 45px;
+    height: 17px;
+    background: transparent url(../images/9-5.jpg) no-repeat center center;
+}
+ul li span.version2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 21px;
+    margin-left: 40%;
+    width: 45px;
+    height: 17px;
+    background: transparent url(../images/9-6.jpg) no-repeat center center;
+}
+ul li span.version3{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 48%;
+    width: 16px;
+    height: 18px;
+    background: transparent url(../images/9-7.jpg) no-repeat center center;
+}
+
+/*论坛精选*/
+div.common_box ul.text_left li p{
+    text-align:left;
+    padding-left: 30px;
+}
+div.common_box ul.text_left li i{
+    width: 245px;
+    height: 155px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+ul li i.voice{
+    background: transparent url(../images/10_1.png)no-repeat center center;
+}
+ul li i.good_child{
+    background: transparent url(../images/10_2.png)no-repeat center center;
+}
+ul li i.beauty{
+    background: transparent url(../images/10-3.jpg)no-repeat center center;
+}
+ul li i.today_topic{
+    background: transparent url(../images/10-4.jpg)no-repeat center center;
+}
+div.common_box ul.text_left li p.pro_name{
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+/*阅读全文修饰*/
+div.common_box ul.text_left li a{
+    margin-left: -180px;
+    color: #732b3c;
+    font-size: 12px;
+    line-height: 60px;
+    box-sizing: border-box;
+}
+div.common_box ul.text_left li a:hover{color: #f35b7c;}

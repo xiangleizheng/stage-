@@ -1,0 +1,109 @@
+.book{
+    width: 1300px;
+}
+.book div.description{
+    font-size: 20px;
+    color: #333333;
+    position: relative;
+}
+.book div.description span.more{
+    position: absolute;
+    left: 96.5%;
+    margin-top: 4px;
+    font-size: 15px;
+}
+.book div.description i.arrow_right{
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    margin-left: -8px;
+    margin-top: 6px;
+    width: 8px;
+    height: 16px;
+    background: transparent url(../images/06.png) no-repeat center center;
+}
+/*边框设置*/
+.book ul.bk li{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 410px;
+    border-left:1px solid #d3d3d3 ;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.book ul.bk li.last{
+    border-right: 1px solid #d3d3d3;
+}
+/*名称 价格的修饰*/
+.book ul.bk li span.name,span.author{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 55px ;
+    color: #343434 ;
+}
+.book ul.bk li span.author{margin-left: 40px;}
+.book ul.bk li span.name{margin-top: 30px;}
+.book ul.bk li span.price{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 78px;
+    margin-left: 40px;
+}
+.book ul.bk li span.name{
+    font-size: 15px;
+    color: #343434;
+}
+/*评论展示修饰*/
+.book ul.bk li span.show_com{
+    position: absolute;
+    display: block;
+    left: 3%;
+    top: 55%;
+    width: 94%;
+    height: 75px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: #faf4f3;
+    margin-top: 100px;
+}
+/*产品图片*/
+.book ul.bk li i{  display: block;  }
+.book ul.bk li i.lr_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/hlws.jpg)no-repeat center center;
+}
+.book ul.bk li i.cj_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/cj9s.jpg)no-repeat center center;
+}
+.book ul.bk li i.xq_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/nsbbs.jpg)no-repeat center center;
+}
+.book ul.bk li i.yzt_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/sgjs.jpg)no-repeat center center;
+}

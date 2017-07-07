@@ -1,0 +1,27 @@
+.common_box ul li.gqdt_one{
+    width: 50%;
+    height: 478px;
+    background-size: cover;
+    background:  #fcfcfc url(../images/6-1.jpg)no-repeat center center;
+}
+.common_box ul li.row_end{border-right: 0;}
+
+
+i.cdq{
+    background: transparent url(../images/6-2.jpg)no-repeat center center;
+}
+i.sjx{
+    background: transparent url(../images/6-3.jpg)no-repeat center center;
+}
+i.lyj{
+    background: transparent url(../images/6-4.jpg)no-repeat center center;
+}
+i.emperora{
+    background: transparent url(../images/6-5.jpg)no-repeat center center;
+}
+i.zjt{
+    background: transparent url(../images/6-7.jpg)no-repeat center center;
+}
+i.s-1000{
+    background: transparent url(../images/6-6.jpg)no-repeat center center;
+}

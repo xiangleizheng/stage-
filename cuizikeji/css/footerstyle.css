@@ -1,0 +1,152 @@
+.footer{
+    width: auto;
+    background-color: #fafafa;
+}
+.footer_container{
+    width: 1220px;
+    color: #c7c7c7;
+    font-size: 12px;
+}
+.footer_container ul{margin-bottom: 35px;}
+.footer_container ul li{
+    float: left;
+    width: 12%;
+}
+.footer_container ul li.footer_right{
+    margin-top: 80px;
+    width: 28%;
+}
+.footer_container div.law{
+    border-top: 1px solid #d3d3d3;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.footer_container ul li dl dt{
+    margin-top: 80px;
+    line-height: 40px;
+    color: #4a4a4a;
+}
+.footer_container ul li dd{
+    line-height: 20px;
+}
+.footer_container ul li dd:hover{color: #f35b7c;}
+.footer_container ul li.footer_right p.phone_number{
+    margin-left: 60px;
+    font-size: 40px;
+    color:#4a4a4a;
+}
+.footer_container ul li.footer_right p.time{
+    margin-left: 90px;
+    margin-bottom: 5px;
+}
+.footer_container ul li.footer_right a.online{
+    display: block;
+    margin-left: 130px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+.footer_container ul li.footer_right a.online:hover{background-color: #eeeeee;border-color: #f35b7c;}
+.footer_container ul li.footer_right a.online i.question_mark{
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #f35b7c;
+}
+.footer_container ul li.footer_right a.online span.online_help{
+    display: inline-block;
+    color: #f35b7c;
+    margin-top: 5px;
+
+}
+
+.footer_container div.law span{
+    color: #030418;
+    line-height: 30px;
+}
+.footer_container div.law a{
+    color: #f35b7c;
+    border-left:1px solid #d3d3d3 ;
+    margin-left: 10px;
+    padding-left: 10px ;
+}
+.footer_container div.law a:hover{color: #030418;}
+/*”Ô—‘øÚ*/
+div.language{
+    margin-top: -50px;
+    float: right;
+    text-align: center;
+    width: 120px;
+    height: 100px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.footer_container div.language a{
+    border: 0;
+    margin-left: 2px;
+    padding-left: 0;
+    line-height: 50px;
+}
+.footer_container div.language i.china{
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: -8px;
+    width: 16px;
+    height: 14px;
+    background: transparent url(../images/language.png) no-repeat;
+    background-position: 100% 0;
+}
+.footer_container div.language i.forign{
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    background: transparent url(../images/language.png) no-repeat;
+    background-position: 100% 47%;
+}
+
+.footer_container div.language div.lan_content{
+    border-top:1px solid #d3d3d3;
+    box-sizing: border-box;
+    display: none;
+}
+div.language span.tran{
+    display:block;
+    float:right;
+    margin-top: 18px;
+    margin-left: -30px;
+    margin-right: 30px;
+    border-top:5px solid  transparent;
+    border-bottom:5px solid #f35b7c;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+}
+
+div.language:hover{
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+div.language:hover div.lan_content{
+    display: block;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+div.language:hover span.tran{
+    margin-top: 25px;
+    border-top:5px solid  #f35b7c;
+    border-bottom:5px solid transparent;
+}

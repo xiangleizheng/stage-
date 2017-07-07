@@ -1,0 +1,101 @@
+.footer{
+    margin-top: 40px;
+    background-color: #fff9f8;
+}
+.footer div.service{
+    width: 1300px;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    padding-top:45px ;
+    padding-bottom: 45px;
+}
+.footer div.fw{
+    width: 1300px;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+
+.footer div.service ul li{
+    width: 20%;
+    float: left;
+}
+.footer div.service ul li p{
+    font-size: 20px;
+    color: #727272;
+    font-weight: bold;
+}
+
+
+.footer div.fw ul li{
+    margin-left: 30px;
+    width: 13%;
+    float: left;
+    line-height: 25px;
+    border-right: 1px solid #d3d3d3;
+}
+
+.footer div.fw ul li.last{
+    text-align: center;
+    border: 0;
+    width: 18%;
+}
+.footer div.fw ul li dl dt{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #747474;
+}
+.footer div.fw ul li dl dt.p_number{
+    padding-bottom: 0;
+    line-height: 40px;
+    font-size: 30px;
+    color: #333333;
+}
+.footer div.fw ul li dl dd.kefu{
+    background-color: #ff4a00;
+    color: #ffffff;
+    line-height: 40px;
+    width: 160px;
+    height: 45px;
+}
+.footer div.fw ul li dl dd.kefu:hover{color: #ff4a00; background-color:#ffffff; }
+.footer div.fw ul li dl dd:hover{color: #ff4a00}
+.footer div.about{
+    text-align: center;
+    width: 1300px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.footer div.about a.first{border: 0;}
+.footer div.about a{
+    color: #8c8c8c;
+    border-left: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.footer div.about a:hover{color: #ff4a00;}
+.footer div.about div{
+    width: 35%;
+    margin-top: 20px;
+}
+.footer div.about div img{
+    margin-top: 10px;
+    float: left;
+}
+.footer div.about div input{
+    float: right;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+    width: 250px;
+    height: 40px;
+}
+.footer div.about div i {
+    margin-top: -25px;
+    margin-left: 420px;
+    float:left;
+    display: inline-block;
+    width: 14px;
+    height: 9px;
+    background: transparent url(../images/tran-g.png);
+}

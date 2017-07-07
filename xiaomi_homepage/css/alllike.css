@@ -1,0 +1,162 @@
+div.alllike{width: 1300px;}
+div.alllike div.description{
+    font-size: 20px;
+    color: #333333;
+}
+/*左侧产品展示部分*/
+div.like_pro_left{
+    float: left;
+    width: 75%;
+    border-left:1px solid #d3d3d3;
+    border-top:1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+/*所有商品的边框宽度设置*/
+div.like_pro_left div{
+    width: 33.3%;
+    height: 310px;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    float: left;
+}
+div.like_pro_left div:hover{
+    box-shadow: 0 0 20px 1px #d3d3d3 inset;
+}
+div.like_pro_left div.tdej{
+    width: 33.4%;
+}
+/*商品名称和价格的设置*/
+div.like_pro_left div p{
+    margin-left: 30px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 20px;
+}
+div.like_pro_left div p.like_name{
+    margin-top: 30px;
+}
+div.like_pro_left div p:hover{
+    color: #ff4a00;
+}
+/*血压计*/
+div.like_pro_left div.xyj{
+    width: 66.7%;
+    height: 310px;
+    background: transparent url(../images/xueyajixiao.jpg) no-repeat center center;
+}
+/*移动电源的图片修饰*/
+div.like_pro_left div i{
+    display: block;
+    margin-left: 50px;
+}
+div.like_pro_left div.yddy i.yddy_pic{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1pZbvBTET1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+div.like_pro_left div.up i.up_pic{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1Zzd_ByCv1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+div.like_pro_left div.tdej i.tdej_pic{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T14yxTBsKT1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+div.like_pro_left div.ztbt i.ztbt_pic{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1.qV_B4AT1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+
+
+/*右侧修饰*/
+div.like_pro_right{
+    float: left;
+    width: 25%;
+    border-top: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+div.like_pro_right ul{height: 621px;}
+div.like_pro_right ul li{
+    position: relative;
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    height: 16.6%;
+}
+div.like_pro_right ul li:hover{
+    box-shadow: 0 0 20px 1px #d3d3d3 inset;
+}
+div.like_pro_right ul li.bang_name{
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: #616161;
+    height: 16.8%;
+}
+div.like_pro_right ul li.bang_name span.hot{
+    color: #ff4a00;
+    font-weight: lighter;
+}
+div.like_pro_right ul li.bang_name span.hot_af{margin-left: 60px}
+div.like_pro_right ul li span{
+    position: absolute;
+}
+div.like_pro_right ul li span.order_number{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 35px;
+    color: #ff4a00;
+    font-weight: bold;
+}
+div.like_pro_right ul li span.order_number1{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 35px;
+    color: #797979;
+    font-weight: bold;
+}
+div.like_pro_right ul li span.name_price{
+    color: #575757;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+/*右侧图片的修饰*/
+div.like_pro_right ul li i{
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    right: 10%;
+}
+div.like_pro_right ul li i.xgp{
+    width: 70px;
+    height: 70px;
+    background: transparent url(../images/yingxiang-.png);
+}
+div.like_pro_right ul li i.ssd{
+    width: 70px;
+    height: 70px;
+    background: transparent url(../images/mideng.png);
+}
+div.like_pro_right ul li i.xmf{
+    width: 70px;
+    height: 70px;
+    background: transparent url(../images/mifeng-.png);
+}
+div.like_pro_right ul li i.mj{
+    width: 70px;
+    height: 70px;
+    background: transparent url(../images/mijian.png);
+}
+div.like_pro_right ul li i.jt{
+    width: 70px;
+    height: 70px;
+    background: transparent url(../images/pang.png);
+}

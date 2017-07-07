@@ -1,0 +1,76 @@
+.theme{
+    width: 1300px;
+    margin-bottom: 70px;
+}
+.theme div.description{
+    font-size: 20px;
+    color: #333333;
+    position: relative;
+}
+.theme div.description span.more{
+    position: absolute;
+    left: 96.5%;
+    margin-top: 4px;
+    font-size: 15px;
+}
+.theme div.description i.arrow_right{
+    display: inline-block;
+    position: absolute;
+    left: 100%;
+    margin-left: -8px;
+    margin-top: 6px;
+    width: 8px;
+    height: 16px;
+    background: transparent url(../images/06.png) no-repeat center center;
+}
+/*边框设置*/
+.theme ul.thm li{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 340px;
+    border-left:1px solid #d3d3d3 ;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.theme ul.thm li.last{
+    border-right: 1px solid #d3d3d3;
+}
+/*名称 价格的修饰*/
+.theme ul.thm li span.name{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 55px ;
+    color: #343434 ;
+}
+.theme ul.thm li span.name{margin-top: 30px;}
+.theme ul.thm li span.price{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+/*产品图片*/
+.theme ul.thm li i{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -140px;
+    width: 280px;
+    height: 220px;
+}
+.theme ul.thm li i.zn_pic{
+    background: transparent url(../images/4.7.2.2.jpg)no-repeat center center;
+}
+.theme ul.thm li i.ku_pic{
+    background: transparent url(../images/4.9.2.png)no-repeat center center;
+}
+.theme ul.thm li i.max_pic{
+    background: transparent url(../images/4.7.1.2.jpg)no-repeat center center;
+}
+.theme ul.thm li i.simple_pic{
+    background: transparent url(../images/4.7.3.2.jpg)no-repeat center center;
+}

@@ -1,0 +1,33 @@
+ul li{
+    position: relative;
+}
+.shopping_button{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -60px;
+    display: none;
+    background-color: #ffffff;
+}
+li:hover div.shopping_button{display: block;}
+
+.shopping_button a{
+    display: inline-block;
+    width: 100px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #595959;
+    background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.shopping_button a.details{
+
+}
+.shopping_button a.add_cart{
+    background-color: #ff6083;
+    color: #ffffff;
+    border: 0;
+}
+.shopping_button a.details:hover{background-color: #e1e1e1;}
+.shopping_button a.add_cart:hover{background-color: #f35b7c;}

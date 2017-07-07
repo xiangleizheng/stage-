@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+        body {
+            background-color: #f7f7f7;
+        }
+        .lo {
+            width: auto;
+            height: 70px;
+            background: #18bebe url(images1/logo.png) no-repeat center center;
+        }
+        div.bfheader {
+            background-color: #ebebeb;
+        }
+
+        .con {
+            margin-right: auto;
+            margin-left: auto;
+            width: 1000px;
+        }
+        .havebg {
+            width: 1000px;
+            background-color: #ebebeb;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            line-height: 40px;
+            overflow: hidden;
+        }
+        .havembg {
+            text-align: center;
+            background-color: #ebebeb;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            line-height: 50px;
+            overflow: hidden;
+            position: relative;
+        }
+        .star, .end, a {
+            cursor: pointer;
+        }
+        .star {
+            float: left;
+            position: relative;
+            font-size: 12px;
+        }
+        .contianer {
+            width: 820px;
+            height: 40px;
+            float: left;
+
+        }
+        .end {
+            float: right;
+            position: relative;
+            font-size: 12px;
+        }
+        span {
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            margin-right: 60px;
+        }
+        .last {
+            margin-right: 0;
+        }
+        .icon1 {
+            display: block;
+            width: 19px;
+            height: 19px;
+            background-image: url(images1/location.png);
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 50%;
+            margin-top: -10px;
+        }
+        .icon2 {
+            display: block;
+            width: 19px;
+            height: 19px;
+            background-image: url(images1/adm.png);
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 50%;
+            margin-top: -10px;
+        }
+        .localnane {
+            margin-left: 19px;
+        }
+        .personalifo {
+            margin-left: 19px
+        }
+        .level {
+            width: 1000px;
+            margin-top: 10px;
+            text-align: left;
+            line-height: 50px;
+            text-indent: 10px;
+        }
+        ul {
+            list-style: none;
+            margin-bottom:10px;
+        }
+        ul:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        ul a {
+            list-style: none;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border: 1px solid transparent;
+        }
+        ul.cat a{font-size: 17px;}
+        ul a:hover {
+            background-color: #fff;
+            border-color: #ffa700;
+        }
+        li {
+            line-height: 30px;
+            float: left;
+            position: relative;
+        }
+        #tl {
+            color: #18bebe;
+        }
+        .bfmore {
+            width: 40px;
+            height: 29px;
+        }
+        .more {
+            display: block;
+            width: 14px;
+            height: 9px;
+            background-image: url(images1/indexSelect.png);
+            position: absolute;
+            top: 50%;
+            margin-top: -4.5px;
+        }
+        #se {
+            box-sizing: border-box;
+            float: left;
+            margin-left: 10px;
+        }
+        .inp {
+            width: 300px;
+            height: 25px;
+            padding: 5px;
+            background-color: #fff;
+            border: 0 solid #fff;
+            outline: none;
+            box-sizing: border-box;
+            font-size: 10px;
+            float: left;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -13px;
+            margin-left: -200px;
+        }
+        .icon4 {
+            height: 14px;
+            width: 14px;
+            display: block;
+            background-image: url(images1/search.png);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -7px;
+            margin-left: 70px;
+
+        }
+        #search {
+            width: 40px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            background-color: #fff;
+            float: left;
+            position: absolute;
+            top: 50%;
+            margin-top: -13px;
+            margin-left: -40px;
+        }
+        #al {
+            float: right;
+            position: relative;
+        }
+        .icon3 {
+            background-image: url(images1/wenhao.png);
+            display: block;
+            height: 19px;
+            width: 19px;
+            position: absolute;
+            top: 50%;
+            margin-top: -9.5px;
+        }
+        #alaf {
+            color: #18bebe;
+            font-size: 15px;
+            margin-left: 19px;
+            margin-right: 10px;
+        }
+        .parent {
+            width: 1000px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto
+        }
+        .parent > div {
+            width: 238px;
+            border: 1px solid #dedede;
+            height: 344px;
+            float: left
+        }
+        .parent > .child {
+            margin-right: 13px;
+            margin-bottom: 13px;
+            background-color: #ebebeb;
+            position: relative;
+            overflow: hidden
+        }
+        .parent > .two {
+            margin-right: 0;
+            margin-bottom: 13px;
+            background-color: #ebebeb;
+            position: relative;
+        }
+        .parent > div:hover p {
+            color: #ffa700;
+        }
+        .prod {
+            width: 208px;
+            height: 209px;
+            background-image: url(images1/data_image.png);
+            margin-left: -104px;
+            margin-top: 15px;
+            position: absolute;
+            left: 50%;
+        }
+        .decr {
+            margin-top: 239px;
+            margin-left: 15px;
+            text-align: left;
+            font-size: 13px;
+            line-height: 22px;
+        }
+        .decr2 {
+            margin-left: 15px;
+            font-size: 15px;
+            line-height: 40px;
+            font-weight: bolder;
+            float: left;
+            color: #18bebe
+        }
+        .decr3 {
+            text-align: left;
+            font-size: 13px;
+            display: block;
+            float: left;
+            line-height: 40px;
+            margin-left: 10px;
+            color: #18bebe
+        }
+        div#fina {
+            font-size: 15px;
+            margin: 22px 0;
+        }
+        div#fina:before {
+            content: "";
+            display: table;
+        }
+        div#fina:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .bin1 {
+            text-decoration: none;
+            background-color: #ebebeb;
+            font-size: 15px;
+            margin-right: 30px;
+            border: 6px solid #ebebeb;
+            padding: 0 10px;
+        }
+        .bin1:hover {
+            background-color: #ffa700;
+            border-color: #ffa700;
+            color: #ffffff;
+        }
+        .bin2 {
+            text-decoration: none;
+            background-color: #ebebeb;
+            font-size: 15px;
+            margin-left: 30px;
+            border: 6px solid #ebebeb;
+            padding: 0 10px;
+        }
+        .bin2:hover {
+            background-color: #ffa700;
+            border-color: #ffa700;
+            color: #ffffff;
+        }
+        .fin {
+            text-decoration: none;
+            background-color: #ffa700;
+            font-size: 15px;
+            margin-left: 30px;
+            border: 6px solid #ffa700;
+            padding: 0 6px;
+            color: #fff;
+        }
+        .stay {
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .page {
+            text-decoration: none;
+            font-size: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .page:hover {
+            color: #ffa700;
+            text-decoration: underline;
+        }
+        .ho {
+            width: 20px;
+            height: 25px;
+            outline: none;
+        }
+        div.twowm{
+            width: 1000px;
+            height: 110px;
+            margin-top:0;
+            margin-bottom:0;
+            position: relative;
+            overflow: hidden;
+            z-index: 100px;
+        }
+        .twod {
+            background: transparent url(images1/small_weixin.png) no-repeat center center;
+            width: 82px;
+            height: 82px;
+            float: left;
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+        }
+        .twoe {
+            float: left;
+            margin-left: 100px;
+            position: absolute;
+            top: 50%;
+            margin-top:-50px;
+        }
+        .bre {
+            font-size: 18px;
+            color: #18bebe;
+            line-height: 40px;
+        }
+        .gree {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .con:before {
+            content: "";
+            display: table;
+        }
+        .con:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            background-color: #515151;
+            overflow: hidden;
+        }
+        ul {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+        .footerim {
+            width: 128px;
+            height: 38px;
+            background-image: url(images1/footerLogo.png);
+            background-repeat: no-repeat;
+            margin: 20px 0;
+        }
+        .footerbre1 {
+            font-size: 15px;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 40px;
+        }
+        .footerbre2 {
+            font-size: 15px;
+            font-weight: lighter;
+            color: #acaaa9;
+            line-height: 10px
+        }
+        .footerlink {
+            margin-top: 80px;
+            margin-left: 100px;
+            font-size: 12px;
+            color: #acaaa9;
+        }
+        .footerlink1{margin-top: 88px;}
+        .flink {
+            color: #acaaa9;
+        }
+        a.flink1{margin-left:5px;float: left;line-height: 25px; }
+        div.footerlink img{float: left;}
+        a.flink:hover {
+            color: #e3e5e4;
+            border: 1px solid transparent;
+            background-color: transparent;
+        }
+       .hrs{
+           width: 1000px;
+           margin-left: auto;
+           margin-right: auto;
+           border-top-width: 1px;
+           border-top-style: solid;
+           border-top-color: #acaaa9;
+           text-align:left;
+           line-height: 70px;
+           overflow: hidden;
+       }
+        .hrs a{font-size: 15px;color: #b7b6b3;}
+        .hrs a:hover{color: #e4e4e4;}
+        .h{margin-right:0;}
+        .b{margin-right:0;margin-left:10px;}
+        .w{float: right;margin-right:0;}
+
+    </style>
+</head>
+<body>
+<div class="lo"></div>
+
+<div class="bfheader">
+    <div class="havebg">
+        <div class="star">
+            <i class="icon1"></i>
+            <span class="localnane">深圳</span>
+            <span class="change">切换</span>
+        </div>
+        <div class="contianer">
+            <a href="#">首页</a>
+            <a href="#">资讯</a>
+            <a href="#">测评</a>
+            <a href="#" class="last">商城</a>
+        </div>
+        <div class="end">
+            <i class="icon2"></i>
+            <span class="personalifo">个人中心</span>
+        </div>
+    </div>
+</div>
+
+<div class="con">
+    <div class="level">首页＞预防装修污染＞材料库</div>
+    <div class="havembg">
+        <ul class="cat">
+            <li><a href="#" id="tl">类别</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">地板</a></li>
+            <li><a href="#">涂料</a></li>
+            <li><a href="#">墙纸</a></li>
+            <li><a href="#">瓷砖</a></li>
+            <li><a href="#">粘胶剂</a></li>
+            <li><a href="#">油漆</a></li>
+            <li><a href="#">家具</a></li>
+            <li><a href="#">板材</a></li>
+            <li><a href="#">饰品</a></li>
+            <li class="bfmore"><a href="#" class="more"></a></li>
+        </ul>
+
+        <ul class="cat">
+            <li><a href="#" id="tl">类型</a></li>
+            <li><a href="#">全部</a></li>
+        </ul>
+
+        <ul class="cat">
+            <li><a href="#" id="tl">材质</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">实木</a></li>
+            <li><a href="#">复合</a></li>
+            <li><a href="#">强化</a></li>
+            <li><a href="#">其他</a></li>
+        </ul>
+        <ul class="cat">
+            <li><a href="#" id="tl">品牌</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">圣象</a></li>
+            <li><a href="#">大自然</a></li>
+            <li><a href="#">生活家</a></li>
+            <li><a href="#">北美枫情</a></li>
+            <li><a href="#">德尔</a></li>
+            <li><a href="#">博典</a></li>
+            <li><a href="#">船王</a></li>
+        </ul>
+    </div>
+    <div class="havembg">
+        <div id="se">
+            发布时间 <img src="images1/downicon.png"/>&nbsp;
+            价格 <img src="images1/upicon.png"/>&nbsp;
+            环保节能 <img src="images1/upicon.png"/>&nbsp; </div>
+        <input class="inp" type="text"/>
+        <i class="icon4"></i>
+        <span id="search">搜索</span>
+
+        <div id="al">
+            <i class="icon3"></i>
+            <span id="alaf">了解家居医生建材环保评级标准</span>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="child">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+        <div class="child">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+        <div class="child">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+        <div class="two">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+        <div class="child">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+        <div class="child">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+        <div class="child">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+        <div class="two">
+            <div class="prod"></div>
+            <div>
+                <p class="decr">德尔&nbsp;&nbsp;&nbsp;&nbsp;都市系列3001 <br/>木地板&nbsp;--&nbsp;复合地板 <br/>单价: &nbsp; 1200/m²
+                </p>
+
+                <p class="decr2">环保评级：B </p>
+
+                <p class="decr3">(可以使用) </p>
+            </div>
+        </div>
+    </div>
+    <div id="fina">
+        <div>
+            <a href="#" class="bin1">上一页</a>
+            <a href="#" class="page">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <a href="#" class="page">4</a>
+            <a href="#" class="page">5</a>
+            <a href="#" class="bin2">下一页</a>
+            <a href="#" class="stay">共有10页，去第 <input class="ho" type="text"/> 页</a>
+            <a href="#" class="fin">确定</a>
+        </div>
+
+
+    </div>
+    <div class="twowm">
+        <div class="twod"></div>
+        <div class="twoe">
+            <span class="bre">建材检测 &nbsp;&nbsp;&nbsp;&nbsp;需求反馈 <br/> </span>
+            <span class="gree">亲爱的用户，我们正在不断的完善和更新建材库 <br/> 若没有找到您想要的信息，请将您想测得建材告诉我们。 </span>
+        </div>
+    </div>
+</div>
+<!--这是底部导航-->
+<div class="footer">
+    <ul >
+        <li class="alfooterbre">
+            <div class="footerim"></div>
+            <div class="footerbre">
+                <span class="footerbre1">为室内环境健康把好每一关 <br/> </span>
+                <span class="footerbre2"> 亲爱的用户，我们正在不断的完善和更新建材库 <br/>
+                若没有找到您想要的信息，请将您想测得建材告诉我们。 </span>
+            </div>
+        </li>
+        <li>
+            <div class="footerlink footerlink1">
+                <a href="#" class="flink">关于我们</a>
+                <a href="#" class="flink">版权说明</a> <br/>
+                <a href="#" class="flink">联系我们</a>
+                <a href="#" class="flink">用户隐私</a><br/>
+                <a href="#" class="flink">加入我们</a>
+                <a href="#" class="flink">免责说明</a>
+            </div>
+        </li>
+        <li>
+            <div class="footerlink footerlink1">
+                <img src="images1/weixin2.png"/><a href="#" class="flink flink1">官方微信</a> <br/>
+                <img src="images1/tianmao.png"/><a href="#" class="flink flink1">天猫旗舰店</a><br/>
+                <img src="images1/shop.png"/><a href="#" class="flink flink1">有赞商城</a><br/>
+            </div>
+        </li>
+    </ul>
+    <div class="hrs">
+        <a href="#" class="h">深圳建筑科学研究院股份有限公司</a>
+        <a href="#" class="b">家居医生网</a>
+        <a href="#" class="w">粤ICP备08011321号 @Copyright All Rights Reserved</a>
+
+    </div>
+</div>
+
+</body>
+</html>

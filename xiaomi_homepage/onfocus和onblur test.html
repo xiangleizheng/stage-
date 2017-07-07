@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        p{color:pink;}
+    </style>
+</head>
+<body>
+<p id="header">hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<p>hello world</p>
+<input type="text" id="input"/>
+<script>
+var input = document.getElementById("input");
+    input.onfocus=function(){
+        this.style.background="pink"
+    }
+    input.onblur=function(){
+        this.style.background="red"
+    }
+
+</script>
+</body>
+</html>

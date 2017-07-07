@@ -1,0 +1,87 @@
+.star_pro{
+    width: 1300px;
+}
+/*上部的文字描述和切换按钮*/
+ div.description{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/*对 小米明星单品的修饰 */
+ span.main_tags{
+    font-size: 20px;
+    color: #333333;
+}
+ span.vice_tags{
+   margin-left: 10px;
+    color: #595959;
+}
+ /*对右侧切换按钮的修饰*/
+.star_pro div.description span i{
+    float: right;
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    border: 1px solid #d3d3d3;
+    margin-top: 8px;
+}
+.star_pro div.description span i.arrow_left{
+    background: transparent url(../images/05.png)no-repeat center center;
+    border-right: 0;
+}
+.star_pro div.description span i.arrow_right{
+    background: transparent url(../images/06.png)no-repeat center center;
+}
+/*对下面的产品展示的修饰*/
+.star_pro ul.pro{}
+.star_pro ul.pro li{
+    float: left;
+    width: 25%;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.star_pro ul.pro li.last{border-right: 1px solid #d3d3d3;}
+/*产品图片的修饰*/
+ul.pro li i{
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ul.pro li i.pro_one{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1PxJvBCAT1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+ul.pro li i.pro_two{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1XYxTBsAT1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+ul.pro li i.pro_three{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1y0JTBy_T1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+ul.pro li i.pro_four{
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1kiWTBChT1RXrhCrK!220x220.jpg) no-repeat center center;
+}
+/*对产品名字的修饰*/
+ p.pro_name{
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+}
+/*对立即预约的修饰*/
+.star_pro ul.pro li a{
+    color:#8c8c8c ;
+}
+.star_pro ul.pro li a:hover{
+    color: #ff4a00;
+}

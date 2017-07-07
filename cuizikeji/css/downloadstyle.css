@@ -1,0 +1,76 @@
+ul li{position: relative;}
+ul li div.download{
+    position: absolute;
+    background-color: #ffffff;
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    display: none;
+}
+ul li:hover .download{display: block}
+/*windows按钮*/
+ul li div.download i.windows_icon{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+    width: 20px;
+    height: 21px;
+    background: transparent url(../images/win.png)no-repeat center center;
+}
+ul li div.download a.windows{
+    display: block;
+    margin-top: 70px;
+    margin-left:2% ;
+    width: 95%;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #f35b7c;
+}
+/*mac按钮*/
+ul li div.download i.mac_icon{
+    float: left;
+    margin-top: 8px;
+    margin-left: -18px;
+    display:block;
+    width: 17px;
+    height: 21px;
+    background: transparent url(../images/apple.png)no-repeat center center;
+}
+ul li div.download a.mac{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 55px;
+    margin-left:2% ;
+    width: 95%;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #f35b7c;
+}
+
+ul li div.download a.mac:hover{
+    box-shadow: 0 0 10px 0 #f35b7c;
+    color: #f35b7c;
+    background-color: #fff0eb;
+}
+ul li div.download a.windows:hover{
+    box-shadow: 0 0 10px 0 #f35b7c;
+    color: #f35b7c;
+    background-color: #fff0eb;
+}
+/*进一步了解*/
+.common_box ul li div.download a.further{
+    display: block;
+    margin-top: 10px;
+    color: #f35b7c;
+}
+/*二维码修饰*/
+.common_box ul li div.download i.two_code{
+    display: block;
+    margin-left: 28%;
+    width: 122px;
+    height: 123px;
+    background: transparent url(../images/9-8.jpg)no-repeat center center;
+}

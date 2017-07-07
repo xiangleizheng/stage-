@@ -1,0 +1,95 @@
+.bodycontainer{
+    width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.body-left{
+    float: left;
+    text-align: center;
+    width: 180px;
+    background-color: #f0f0f0;
+    border: 2px solid #eaeaea;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.body-right{
+    float: right;
+    text-align: center;
+    width: 810px;
+    height: 876px;
+    background-color: #f0f0f0;
+    border: 2px solid #eaeaea;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.body-right iframe{
+    width: 812px;
+    height: 876px;
+}
+.body-left a.text{
+    display: block;
+    width: 180px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+    line-height: 70px;
+    box-sizing: border-box;
+}
+a.text:hover{
+    border-left-color: #19cccc;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-right: 2px solid #eaeaea;
+    border-top: 2px solid #eaeaea;
+    border-bottom: 2px solid #eaeaea;
+    background-color: #ebebeb;
+}
+ul.nofloat li dl dd a:hover{
+    border-left-color: #19cccc;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-right: 2px solid #eaeaea;
+    border-top: 2px solid #eaeaea;
+    border-bottom: 2px solid #eaeaea;
+    color: #19bfbf;
+    background-color: #ebebeb;
+}
+.zhankai{
+    width: 34px;
+    height: 34px;
+    background: transparent url(../images/zhankai.png) no-repeat center center;
+    position: absolute;
+    left: 15%;
+}
+.body-left ul{
+    width: 180px;
+    color: #555555;
+}
+
+ul.nofloat li{
+    float: none;
+    margin-bottom: 20px;
+    position: relative;
+}
+ul.nofloat li dl dt{
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: bold;
+}
+ul.nofloat li dl dd a{
+    display: block;
+    width: 180px;
+    border-left-color:transparent;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    margin-left: 0 ;
+    box-sizing: border-box;
+}

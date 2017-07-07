@@ -1,0 +1,91 @@
+.tejia{
+    width: 1300px;
+}
+.tejia div.description{
+    font-size: 20px;
+    color: #333333;
+}
+/*边框设置*/
+.tejia ul.tj li{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 325px;
+    border-left:1px solid #d3d3d3 ;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.tejia ul.tj li.last{
+    border-right: 1px solid #d3d3d3;
+}
+/*名称 价格的修饰*/
+.tejia ul.tj li span.name,span.price{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 55px ;
+    color: #343434 ;
+}
+.tejia ul.tj li span.name{margin-top: 30px;}
+.tejia ul.tj li i.stars{margin-top: 52px;}
+.tejia ul.tj li span.old_price{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 56px;
+    margin-left: 80px;
+    text-decoration: line-through;
+}
+.tejia ul.tj li span.name{
+    font-size: 15px;
+    color: #343434;
+}
+/*红色的省钱修饰*/
+.tejia ul.tj li div.sq{
+    text-align: center;
+    position: absolute;
+    margin-left: 70%;
+    width: 80px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 25px;
+}
+/*产品图片*/
+.tejia ul.tj li i{  display: block;  }
+.tejia ul.tj li i.hongmi_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1F9ZTBbxT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+.tejia ul.tj li i.zhijia_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1GtZvBvVT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+.tejia ul.tj li i.dianchi_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1icAvBTdT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+.tejia ul.tj li i.kuaichong_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1ipAvB_ZT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+

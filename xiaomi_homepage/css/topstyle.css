@@ -1,0 +1,118 @@
+/*整个顶部的div块*/
+.top{
+    width: 1300px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+/*顶部的搜索div块*/
+.top div.search{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 45%;
+}
+/*顶部右端的div块*/
+.top div.top_right{float: right;}
+
+
+/*输入框的修饰*/
+.search input.search_input{
+    position: absolute;
+    top: 50%;
+    margin-top:-20px ;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #d5d5d5;
+    color: #d3d3d3;
+    font-size: 16px;
+    padding-left:5px ;
+    box-sizing: border-box;
+}
+/*输入框内的预设词条*/
+.search span.search_yushe1{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    display: inline-block;
+    background-color: #dedede;
+    color: #000;
+    margin-left: 210px;
+}
+.search span.search_yushe2{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    display: inline-block;
+    background-color: #dedede;
+    color: #000;
+    margin-left: 280px;
+}
+.search span.search_yushe3{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    display: inline-block;
+    background-color: #dedede;
+    color: #000;
+    margin-left: 350px;
+}
+.search span:hover{
+    color: #ea532c;
+    background-color: transparent;
+    /*box-shadow: 0 0 5px 0px #fd673b;*/
+}
+/*图片的属性*/
+.top div.toplogo{
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: transparent url(../images/logo.png) no-repeat center center;}
+.search i.search_icon{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    display:inline-block;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    border-right: 1px solid #d5d5d5;
+    width: 40px;
+    height: 40px;
+    margin-left: 400px;
+    background: transparent url(../images/fangdajing.png) no-repeat center center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.top_right i.cart_icon{
+    display:inline-block;
+    width: 14px;
+    height: 14px;
+    background: transparent url(../images/shopcar.png)no-repeat center center;
+}
+.top_right i.clock_icon{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: transparent url(../images/clock.png)no-repeat center center;
+
+}
+/*购物车按钮*/
+.top_right a.cart_button{
+    margin-top: 8px;
+    text-align: center;
+    display: block;
+    width: 150px;
+    line-height: 40px;
+    background-image: url("../images/shopcarbgimg.png")  ;
+    background-position:100% 100%;
+}
+/*购物车按钮的hover*/
+.top_right a.cart_button:hover{
+    color: #ffffff;
+}
+/*开放时间*/
+.top_right span.open_time {
+    /*text-shadow: 0 0 5px #ff5159;*/
+}

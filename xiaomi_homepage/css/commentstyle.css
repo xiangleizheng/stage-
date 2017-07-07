@@ -1,0 +1,100 @@
+.comment{
+    width: 1300px;
+}
+.comment div.description{
+    font-size: 20px;
+    color: #333333;
+}
+/*边框设置*/
+.comment ul.com li{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 400px;
+    border-left:1px solid #d3d3d3 ;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.comment ul.com li.last{
+    border-right: 1px solid #d3d3d3;
+}
+/*名称 价格的修饰*/
+.comment ul.com li i.stars,span.name,span.price{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 70px ;
+    color: #343434 ;
+}
+.comment ul.com li span.price{margin-top:72px; }
+.comment ul.com li span.name{margin-top: 30px;}
+.comment ul.com li i.stars{margin-top: 52px;}
+.comment ul.com li span.people{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.comment ul.com li span.name{
+    font-size: 15px;
+    color: #343434;
+}
+.comment ul.com li i.stars{
+    display:inline-block;
+    width: 65px;
+    height: 15px;
+    background: transparent url(../images/xingxing.png)no-repeat center center;
+}
+/*产品图片*/
+.comment ul.com li i{  display: block;  }
+.comment ul.com li i.cup_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1_adTBvKT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+.comment ul.com li i.wallet_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1nmhTBTKT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+.comment ul.com li i.dbhk_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T1VkKvBvhT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+.comment ul.com li i.bag_pic{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    height: 220px;
+    background: transparent url(../images/T14cLgBXKT1RXrhCrK!220x220.jpg)no-repeat center center;
+}
+/*评论展示*/
+.comment ul.com li span.show_com{
+    position: absolute;
+    display: block;
+    left: 5%;
+    top: 55%;
+    width: 90%;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: #faf4f3;
+    margin-top: 100px;
+}

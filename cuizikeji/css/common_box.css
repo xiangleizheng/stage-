@@ -1,0 +1,72 @@
+.common_box{
+    width: 1220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+.common_box p.tittle{
+    color: #5c5c5c;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+
+.common_box ul li{
+    float: left;
+    text-align: center;
+    width: 25%;
+    background-color: #ffffff;
+    border-top: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    box-sizing: border-box;
+}
+.common_box ul li:hover{
+    box-shadow: 0 0 10px 1px #d3d3d3 inset;
+}
+.common_box ul li i{
+    display: block;
+    margin-left:30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 253px;
+    height: 253px;
+}
+.common_box ul li.first_li{
+    border-bottom-left-radius: 10px;
+}
+.common_box ul li.last_li{
+    border-right:0;
+    border-bottom-right-radius: 10px;
+}
+.common_box ul li i.stick{
+    background: transparent url(../images/5-1.jpg) no-repeat center center;
+}
+.common_box ul li i.naoto{
+    background: transparent url(../images/5-2.jpg) no-repeat center center;
+}
+.common_box ul li i.protect{
+    background: transparent url(../images/5-3.jpg) no-repeat center center;
+}
+.common_box ul li i.earphone{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: transparent url(../images/5-4.jpg) no-repeat center center;
+}
+
+.common_box ul li p.pro_name{
+    font-size: 18px;
+}
+.common_box ul li p.introduce{
+    font-size: 12px;
+    color: #c7c7c7;
+}
+
+.common_box ul li p.price{
+    color: #ff6083;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
